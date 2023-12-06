@@ -43,7 +43,7 @@
 		"AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70",
 		"AccountName": "likewize",
 		"ScreenFlows": {
-			"LaunchScreen": "Dashboard"
+			"LaunchScreen": "DeviceVariantPage"
 		},
                 "NumberOfPopularDevicesToPresent":20
 	}
