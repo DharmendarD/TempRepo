@@ -135,8 +135,5 @@
     "AppleTV5,3": "Apple TV",
     "AppleTV6,2": "Apple TV 4K",
     "AudioAccessory1,1": "HomePod",
-    "AudioAccessory5,1": "HomePod mini",
-    "i386": "",
-    "x86_64": "",
-    "arm64": "",
+    "AudioAccessory5,1": "HomePod mini"
 }
