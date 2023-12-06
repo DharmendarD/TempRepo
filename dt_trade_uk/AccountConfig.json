@@ -39,8 +39,8 @@
 		]
 	},
 	"TradeConfig": {
-		"ApiRootUrlEndindWithSlash": "https://uat-oasis-amer.likewize.com/",
-		"AccountId": "d724a503-625e-4e17-9a05-3eee652baa03",
+		"ApiRootUrlEndindWithSlash": "https://qa1-oasis-amer.likewize.com/",
+		"AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70",
 		"AccountName": "likewize",
 		"ScreenFlows": {
 			"LaunchScreen": "DeviceVariantPage"
