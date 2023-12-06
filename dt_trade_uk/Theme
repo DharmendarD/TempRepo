@@ -236,6 +236,8 @@
             Padding="16,12"
             BackgroundColor="{DynamicResource Primary5}"
             ColumnDefinitions="Auto,*"
+            RowDefinitions="Auto"
+            MinimumHeightRequest="50"
             HorizontalOptions="Fill">
             <controls:LwGlyph
                 Grid.Column="0"
