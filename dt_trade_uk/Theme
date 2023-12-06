@@ -8,6 +8,18 @@
 
     <!--  Start - Common Styling Colors  -->
 
+    <Color x:Key="Primary5">#FFE0F0</Color>
+    <Color x:Key="Primary10">#FFC7E4</Color>
+    <Color x:Key="Primary20">#FF97CD</Color>
+    <Color x:Key="Primary100">#e20074</Color>
+    <Color x:Key="Primary120">#9e0051</Color>
+
+
+    <Color x:Key="Teritiary5">#d3d7f9</Color>
+    <Color x:Key="Teritiary10">#AABCFD</Color>
+    <Color x:Key="Teritiary20">#7D94F9</Color>
+    <Color x:Key="Teritiary100">#2238df</Color>
+    <Color x:Key="Teritiary120">#000d99</Color>
     <controls:LwColor x:Key="SecondaryIconColor" CloneColorKey="Neutral50" />
     <controls:LwColor x:Key="GlobalTileFrameBorderColor" CloneColorKey="White" />
     <Color x:Key="PageContentBackgroundColor">Transparent</Color>
