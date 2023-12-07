@@ -236,7 +236,7 @@
         Padding="16,12"
         BackgroundColor="Green"
         ColumnDefinitions="Auto,*"
-        RowDefinitions="50"
+        RowDefinitions="150"
         HorizontalOptions="Fill">
         <controls:LwGlyph
             Grid.Column="0"
