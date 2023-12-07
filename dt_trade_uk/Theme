@@ -234,7 +234,7 @@
     <Grid
         Margin="-2,-3"
         Padding="16,12"
-        BackgroundColor="Green"
+        BackgroundColor="Yellow"
         ColumnDefinitions="Auto,*"
         RowDefinitions="Auto"
         HorizontalOptions="Fill">
