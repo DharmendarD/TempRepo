@@ -234,7 +234,7 @@
     <Grid
         Margin="-2,-3"
         Padding="16,12"
-        BackgroundColor="Yellow"
+        BackgroundColor="{DynamicResource Primary5}"
         ColumnDefinitions="Auto,*"
         RowDefinitions="Auto"
         HorizontalOptions="Fill">
@@ -254,6 +254,7 @@
 
         <controls:LwLabel
             Grid.Column="1"
+            MinimumHeightRequest="80"
             HorizontalOptions="Center"
             Style="{controls:LwDynamicLabelStyleGenerator PrimaryMediumBold}"
             Text="{TemplateBinding Title}"
