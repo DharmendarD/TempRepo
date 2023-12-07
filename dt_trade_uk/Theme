@@ -237,7 +237,6 @@
         BackgroundColor="{DynamicResource Primary5}"
         ColumnDefinitions="Auto,*"
         RowDefinitions="Auto"
-        MinimumHeightRequest="50"
         HorizontalOptions="Fill">
         <controls:LwGlyph
             Grid.Column="0"
@@ -252,14 +251,14 @@
                 <TapGestureRecognizer Command="{Binding BackButtonCommand, Source={x:StaticResource Source}}" />
             </controls:LwGlyph.GestureRecognizers>
         </controls:LwGlyph>
-
+       <StackLayout  Grid.Column="1">
         <controls:LwLabel
-            Grid.Column="1"
-            MinimumHeightRequest="10"
+            MinimumHeightRequest="30"
             HorizontalOptions="Center"
             Style="{controls:LwDynamicLabelStyleGenerator PrimaryMediumBold}"
             Text="{TemplateBinding Title}"
             VerticalOptions="Center" />
+</StackLayout>
     </Grid>
 </DataTemplate>
 
