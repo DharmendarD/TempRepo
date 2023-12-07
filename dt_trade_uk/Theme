@@ -254,7 +254,7 @@
 
         <controls:LwLabel
             Grid.Column="1"
-            MinimumHeightRequest="80"
+            MinimumHeightRequest="50"
             HorizontalOptions="Center"
             Style="{controls:LwDynamicLabelStyleGenerator PrimaryMediumBold}"
             Text="{TemplateBinding Title}"
