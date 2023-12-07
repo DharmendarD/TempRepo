@@ -231,16 +231,13 @@
     <!--  Start - Common Data Templates  -->
 
     <DataTemplate x:Key="HeaderTemplate">
-        <Grid
+        <HorizontalStackLayout
             Margin="-2,-3"
             Padding="16,12"
             BackgroundColor="{DynamicResource Primary5}"
-            ColumnDefinitions="Auto,*"
-            RowDefinitions="Auto"
             MinimumHeightRequest="50"
             HorizontalOptions="Fill">
             <controls:LwGlyph
-                Grid.Column="0"
                 FontSize="18"
                 HorizontalOptions="Start"
                 Text="{x:Static controls:LwGlyphHelper.ARROW_LEFT}"
@@ -254,12 +251,11 @@
             </controls:LwGlyph>
 
             <controls:LwLabel
-                Grid.Column="1"
                 HorizontalOptions="Center"
                 Style="{controls:LwDynamicLabelStyleGenerator PrimaryMediumBold}"
                 Text="{TemplateBinding Title}"
                 VerticalOptions="Center" />
-        </Grid>
+        </HorizontalStackLayout>
     </DataTemplate>
 
     <!--  End - Common Data Templates  -->
