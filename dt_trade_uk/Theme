@@ -237,6 +237,7 @@
         BackgroundColor="{DynamicResource Primary5}"
         ColumnDefinitions="Auto,*"
         RowDefinitions="Auto"
+        MinimumHeightRequest="50"
         HorizontalOptions="Fill">
         <controls:LwGlyph
             Grid.Column="0"
@@ -254,7 +255,7 @@
 
         <controls:LwLabel
             Grid.Column="1"
-            MinimumHeightRequest="50"
+            MinimumHeightRequest="10"
             HorizontalOptions="Center"
             Style="{controls:LwDynamicLabelStyleGenerator PrimaryMediumBold}"
             Text="{TemplateBinding Title}"
