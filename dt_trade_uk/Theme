@@ -251,7 +251,7 @@
                 <TapGestureRecognizer Command="{Binding BackButtonCommand, Source={x:StaticResource Source}}" />
             </controls:LwGlyph.GestureRecognizers>
         </controls:LwGlyph>
-       <StackLayout  Grid.Column="1">
+       <StackLayout  Grid.Column="1" BackgroundColor="Yellow">
         <controls:LwLabel
             MinimumHeightRequest="30"
             HorizontalOptions="Center"
