@@ -45,6 +45,8 @@
 		"ScreenFlows": {
 			"LaunchScreen": "DeviceVariantPage"
 		},
-                "NumberOfPopularDevicesToPresent":20
+                "NumberOfPopularDevicesToPresent":20,
+		"AutoCreateUserSession":"true",
+		"PersistUserSession":"true",
 	}
 }
