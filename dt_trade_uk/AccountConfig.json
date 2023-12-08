@@ -1,6 +1,6 @@
 {
 	"AccountConfig": {
-		"AccountCode": "dt_trade_uk",
+		"AccountCode": "dt_trade_uk ",
 		"CurrencyCulture": "de-AT",
 		"DefaultCulture": "de-AT",
 		"DeepLinkUrl": null,
