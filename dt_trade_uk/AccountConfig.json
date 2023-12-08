@@ -41,7 +41,7 @@
 	"TradeConfig": {
 		"ApiRootUrlEndindWithSlash": "https://uat-oasis-amer.likewize.com/",
 		"AccountId": "d724a503-625e-4e17-9a05-3eee652baa03",
-		"AccountName": "likewize",
+		"AccountName": "dt-gtp",
 		"ScreenFlows": {
 			"LaunchScreen": "DeviceVariantPage"
 		},
