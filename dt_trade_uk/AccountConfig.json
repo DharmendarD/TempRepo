@@ -8,7 +8,7 @@
 		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
 		"AccountType": "Trade",
 		"DashBoardCacheTimeOutInSeconds": "60",
-		"DeviceNumberRegexValidation": "^[0-9]{11}$",
+		"DeviceNumberRegexValidation": "^\\(?([0-9]{3})\\)?[-.●]?([0-9]{3})[-.●]?([0-9]{4})$",
 		"DeviceNumberMasking": "(###) ###-####",
 		"TermsAndConditionsType": "AsLink",
 		"CountryCode": "+1",
