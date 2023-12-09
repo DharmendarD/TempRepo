@@ -1,8 +1,8 @@
 {
 	"AccountConfig": {
 		"AccountCode": "dt_trade_uk",
-		"CurrencyCulture": "en-US",
-		"DefaultCulture": "en-US",
+		"CurrencyCulture": "de-AT",
+		"DefaultCulture": "de-AT",
 		"DeepLinkUrl": null,
 		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
 		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
@@ -41,6 +41,7 @@
 	"TradeConfig": {
 		"ApiRootUrlEndindWithSlash": "https://uat-oasis-amer.likewize.com/",
 		"AccountId": "d724a503-625e-4e17-9a05-3eee652baa03",
+		"AddressCoutryFilter": "AT",
 		"AccountName": "dt-gtp",
 		"ScreenFlows": {
 			"LaunchScreen": "DeviceVariantPage"
