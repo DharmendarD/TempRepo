@@ -48,6 +48,7 @@
 		},
                 "NumberOfPopularDevicesToPresent":20,
 		"AutoCreateUserSession":"true",
-		"PersistUserSession":"true",
+		"PersistUserCredentials":"true",
+		"CreateUserSessionOnPretrade":"true"
 	}
 }
