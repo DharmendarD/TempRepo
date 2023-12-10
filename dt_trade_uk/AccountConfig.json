@@ -44,7 +44,7 @@
 		"AddressCoutryFilter": "AT",
 		"AccountName": "dt-gtp",
 		"ScreenFlows": {
-			"LaunchScreen": "DeviceVariantPage"
+			"LaunchScreen": "Dashboard"
 		},
                 "NumberOfPopularDevicesToPresent":20,
 		"AutoCreateUserSession":"true",
