@@ -45,7 +45,7 @@
 		"AccountName": "dt-gtp",
 		"ScreenFlows": {
 			"LaunchScreen": "Dashboard",
-			"ShouldAllowNewTradeOnConfirmationPage":"true"
+			"ShouldAllowNewTradeOnConfirmationPage":"false"
 		},
                 "NumberOfPopularDevicesToPresent":20,
 		"AutoCreateUserSession":"true",
