@@ -2,7 +2,7 @@
 	"AccountConfig": {
 		"AccountCode": "dt_trade_uk",
 		"CurrencyCulture": "de-AT",
-		"DefaultCulture": "de-AT",
+		"DefaultCulture": "en-US",
 		"DeepLinkUrl": null,
 		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
 		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
@@ -44,7 +44,8 @@
 		"AddressCoutryFilter": "AT",
 		"AccountName": "dt-gtp",
 		"ScreenFlows": {
-			"LaunchScreen": "Dashboard"
+			"LaunchScreen": "Dashboard",
+			"ShouldAllowNewTradeOnConfirmationPage":"true"
 		},
                 "NumberOfPopularDevicesToPresent":20,
 		"AutoCreateUserSession":"true",
