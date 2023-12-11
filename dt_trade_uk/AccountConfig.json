@@ -44,7 +44,7 @@
 		"AddressCoutryFilter": "AT",
 		"AccountName": "dt-gtp",
 		"ScreenFlows": {
-			"LaunchScreen": "Dashboard",
+			"LaunchScreen": "TradePlaceHolderPage",
 			"ShouldAllowNewTradeOnConfirmationPage":"false"
 		},
                 "NumberOfPopularDevicesToPresent":20,
