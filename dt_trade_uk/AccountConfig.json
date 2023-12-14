@@ -50,6 +50,7 @@
                 "NumberOfPopularDevicesToPresent":20,
 		"AutoCreateUserSession":"true",
 		"PersistUserCredentials":"true",
-		"CreateUserSessionOnPretrade":"true"
+		"CreateUserSessionOnPretrade":"true",
+		"PreSelectDeviceStorageAndColor":"true"
 	}
 }
