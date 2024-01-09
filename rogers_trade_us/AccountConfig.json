@@ -9,7 +9,7 @@
 		"AccountType": "Trade",
 		"DashBoardCacheTimeOutInSeconds": "60",
 		"DeviceNumberRegexValidation": "^\\(?([0-9]{3})\\)?[-.●]?([0-9]{3})[-.●]?([0-9]{4})$",
-		"DeviceNumberMasking": "(###) ###-####",
+		"DeviceNumberMasking": "###-###-####",
 		"TermsAndConditionsType": "AsLink",
 		"CountryCode": "+1",
 		"IsPremiumTechSupportEnabled": false,
