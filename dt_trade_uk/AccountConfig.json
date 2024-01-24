@@ -52,5 +52,15 @@
 		"PersistUserCredentials":"true",
 		"CreateUserSessionOnPretrade":"true",
 		"PreSelectDeviceStorageAndColor":"true"
+		"OnlinePortalUrl":"https://uat-trade-amer.likewize.com/dt-gtp/pretrade"
+		"OnlinePortalUrlWithSession":"https://uat-trade-amer.likewize.com/dt-gtp/pretrade/tradein-process"
+	},
+	"DiagnosticsConfig": {
+		"ApiRootUrlEndindWithSlash": "https://uat-oasis-amer.likewize.com/",
+		"AccountId": "d724a503-625e-4e17-9a05-3eee652baa03",
+		"AccountName": "dt-gtp",
+                "ScreenFlows": {
+			"LaunchScreen": "ValidateCodePage"
+		}
 	}
 }
