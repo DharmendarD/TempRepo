@@ -51,8 +51,8 @@
 		"AutoCreateUserSession":"true",
 		"PersistUserCredentials":"true",
 		"CreateUserSessionOnPretrade":"true",
-		"PreSelectDeviceStorageAndColor":"true"
-		"OnlinePortalUrl":"https://uat-trade-amer.likewize.com/dt-gtp/pretrade"
+		"PreSelectDeviceStorageAndColor":"true",
+		"OnlinePortalUrl":"https://uat-trade-amer.likewize.com/dt-gtp/pretrade",
 		"OnlinePortalUrlWithSession":"https://uat-trade-amer.likewize.com/dt-gtp/pretrade/tradein-process"
 	},
 	"DiagnosticsConfig": {
