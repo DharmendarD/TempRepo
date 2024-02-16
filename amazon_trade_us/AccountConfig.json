@@ -1,6 +1,6 @@
 {
 	"AccountConfig": {
-		"AccountCode": "rogers_trade_us",
+		"AccountCode": "amazon_trade_us",
 		"CurrencyCulture": "en-US",
 		"DefaultCulture": "en-US",
 		"DeepLinkUrl": null,
@@ -40,11 +40,11 @@
 	},
 	"TradeConfig": {
 		"ApiRootUrlEndindWithSlash": "https://uat-oasis-amer.likewize.com/",
-		"AccountId": "9504b476-6b9c-4894-9583-70ebf2c81f2d",
-		"AccountName": "rogers-gtp",
+		"AccountId": "757f0236-62ae-4ff8-864c-7579ffe40d12",
+		"AccountName": "amazon-gtp",
 		"ScreenFlows": {
 			"LaunchScreen": "Dashboard"
 		},
-                "NumberOfPopularDevicesToPresent":20
+        "NumberOfPopularDevicesToPresent":20
 	}
 }
