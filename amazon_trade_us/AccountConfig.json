@@ -1,0 +1,50 @@
+{
+	"AccountConfig": {
+		"AccountCode": "rogers_trade_us",
+		"CurrencyCulture": "en-US",
+		"DefaultCulture": "en-US",
+		"DeepLinkUrl": null,
+		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
+		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
+		"AccountType": "Trade",
+		"DashBoardCacheTimeOutInSeconds": "60",
+		"DeviceNumberRegexValidation": "^\\(?([0-9]{3})\\)?[-.●]?([0-9]{3})[-.●]?([0-9]{4})$",
+		"DeviceNumberMasking": "###-###-####",
+		"TermsAndConditionsType": "AsLink",
+		"CountryCode": "+1",
+		"IsPremiumTechSupportEnabled": false,
+		"IsDeviceProtectionEnabled": false,
+		"IsUpgradeEnabled": false,
+		"IsDeviceProtectionEnrollEnabled": false,
+		"IsTradeInEnabled": true
+	},
+	"DemoConfig": {
+		"DemoIMEIs": [
+			"862760239207166",
+			"510457163448520",
+                        "012345678901234"
+		],
+		"DemoPhoneNumbers": null,
+		"DemoCredentials": {
+			"0123456789":"TRADE2023",
+			"1234567890":"TRADE2024",
+                        "applereviewer@apple.com":"TRADE2023",
+                        "googlereviewer@google.com":"TRADE2024",
+		},
+		"DemoCoupons": [
+			"PROMO_SPRING_1425",
+			"PROMO_AUTUMN_2341",
+			"PROMO_SUMMER_3456",
+			"PROMO_SPRING_9863"
+		]
+	},
+	"TradeConfig": {
+		"ApiRootUrlEndindWithSlash": "https://uat-oasis-amer.likewize.com/",
+		"AccountId": "9504b476-6b9c-4894-9583-70ebf2c81f2d",
+		"AccountName": "rogers-gtp",
+		"ScreenFlows": {
+			"LaunchScreen": "Dashboard"
+		},
+                "NumberOfPopularDevicesToPresent":20
+	}
+}
