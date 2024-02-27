@@ -1,0 +1,66 @@
+{
+	"SerialAlias": [
+		"serial no",
+		"ser. no",
+		"serial",
+		"sn",
+		"s/n",
+		"snid",
+		"serial no.",
+		"ser. no.",
+		"s. no.",
+		"serial.",
+		"sn.",
+		"s/n.",
+		"snid."
+	],
+	"ModelAlias": [
+		"model no",
+		"model",
+		"model no.",
+		"model.",
+		"modelo"
+	],
+	"MakeAlias": [
+		"make",
+		"designed by",
+		"created by"
+	],
+	"ImeiAlias": [
+		"imei",
+		"imei/imeid",
+		"imei1",
+		"imei2"
+	],
+	"CommonMakes": [
+		"apple",
+		"sony",
+		"samsung",
+		"lg",
+		"panasonic",
+		"xiomi",
+		"motorola",
+		"google",
+		"oneplus",
+		"lenovo",
+		"microsoft",
+		"oppo",
+		"dell",
+		"hp",
+		"hewlett-packward",
+		"tata",
+		"hitachi",
+		"philips",
+		"haier",
+		"seimens",
+		"sharp"
+	],
+	"CommonModels": [
+		"iphone 14",
+		"iphone 13",
+		"iphone 12",
+		"iphone X",
+		"iphone 11",
+		"iphone se"
+	]
+}
