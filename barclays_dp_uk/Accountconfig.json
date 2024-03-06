@@ -41,6 +41,9 @@
 			"SuggestionUrl": "https://api.addressnow.co.uk/CapturePlus/Interactive/Find/v2.00/json3ex.ws?Key=ZA99-AZ72-RN93-HU64&Country=GBR&SearchTerm={0}&LanguagePreference=en&LastId={1}&SearchFor=Everything&OrderBy=&$block=true&$cache=true",
 			"RetrieveFormatUrl": "https://api.addressnow.co.uk/CapturePlus/Interactive/RetrieveFormatted/v2.00/json3ex.ws?Key=ZA99-AZ72-RN93-HU64&Id={0}&Source=&$cache=true"
 		},
+		"ScreenFlows": {
+			"LaunchScreen": "LoginPage"
+		}
 	},
 	"DemoConfig": {
 		"DemoCredentials": {
