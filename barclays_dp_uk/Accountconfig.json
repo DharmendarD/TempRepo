@@ -11,12 +11,50 @@
 		"DeviceNumberRegexValidation": "^[0-9]{11}$",
 		"DeviceNumberMasking": "#### ### ####",
 		"TermsAndConditionsType": "AsLink",
-		"CountryCode": "+61",
-		"IsPremiumTechSupportEnabled": true,
+		"DefaultCountryId": "1b8dd428-7335-428e-be46-b667d77b7caf",
+		"CountryCode": "+44",
+		"IsPremiumTechSupportEnabled": false,
 		"IsDeviceProtectionEnabled": true,
 		"IsUpgradeEnabled": false,
 		"IsDeviceProtectionEnrollEnabled": false,
-		"IsTradeInEnabled": true
+		"IsTradeInEnabled": false,
+		"IsDiagnosticsEnabled": false,
+	},
+	"ProtectConfig": {
+		"AccountId": "415FE5E1-7BF7-4B1B-B63E-9E17966AE6CB",
+		"AccountNumber": "00000450",
+		"CustomizationKey": "barclays",
+		"AuthType": "bankaccountnumbercognito",
+		"AuthExpirationTimeinMins": 10,
+		"PinSize": 8,
+		"IsPremiumTechSupportEnabled":true,
+		"IsDeviceHealthTestAllowed": true,
+		"DeviceProtectionApiConfig": {
+			"ClientId": "MBRCBS*rSSO234UserUAP",
+			"ClientSecret": "MB*125050292889273",
+			"CryptoKey": "",
+			"RootUrlEndingWithSlash": "https://qa1-hits-ext.likewize.com/onlineportal/api/v1/",
+			"OnlinePortalUrlEndingWithSlash": "https://qa1-hits-ext.likewize.com/onlineportal/",
+		},
+		"GPSTrackingAppleUrl": "https://www.icloud.com/",
+		"AddressConfig": {
+			"SuggestionUrl": "https://api.addressnow.co.uk/CapturePlus/Interactive/Find/v2.00/json3ex.ws?Key=ZA99-AZ72-RN93-HU64&Country=GBR&SearchTerm={0}&LanguagePreference=en&LastId={1}&SearchFor=Everything&OrderBy=&$block=true&$cache=true",
+			"RetrieveFormatUrl": "https://api.addressnow.co.uk/CapturePlus/Interactive/RetrieveFormatted/v2.00/json3ex.ws?Key=ZA99-AZ72-RN93-HU64&Id={0}&Source=&$cache=true"
+		},
+	},
+	"DemoConfig": {
+		"DemoCredentials": {
+			"applereviewer@apple.com":"B@6426756",
+			"googlereviewer@google.com":"B@674564",
+		},
+		"DemoAccountNumbers": [
+			"56409474",
+			"53975896"
+		],
+		"AgreementNumber": [
+			"7476746764",
+			"1025609905",
+		]
 	},
 	"TechSupportConfig": {
 		"ApiKey": "uNFXoVSkIG7U6NMOjJf5c1ucsyuxSpHK1ro8ajhF",
