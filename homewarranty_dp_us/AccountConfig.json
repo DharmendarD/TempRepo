@@ -1,0 +1,64 @@
+{
+	"AccountConfig": {
+		"AccountCode": "homewarranty_dp_us",
+		"CurrencyCulture": "en-US",
+		"DefaultCulture": "en-US",
+		"DeepLinkUrl": null,
+		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
+		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
+		"AccountType": "WholeHomeWarranty",
+		"DashBoardCacheTimeOutInSeconds": "60",
+		"DeviceNumberRegexValidation": "^[0-9]{11}$",
+		"DeviceNumberMasking": "#### ### ####",
+		"TermsAndConditionsType": "AsLink",
+		"DefaultCountryId": "1b8dd428-7335-428e-be46-b667d77b7caf",
+		"CountryCode": "+1",
+		"IsPremiumTechSupportEnabled": false,
+		"IsDeviceProtectionEnabled": true,
+		"IsUpgradeEnabled": false,
+		"IsDeviceProtectionEnrollEnabled": false,
+		"IsTradeInEnabled": false,
+		"IsDiagnosticsEnabled": false,
+	},
+	"ProtectConfig": {
+		"AccountId": "1c9f1700-fc10-4b78-96a5-4111f27b99d8",
+		"AccountNumber": "00000450",
+		"CustomizationKey": "whwtest",
+		"AuthType": "wholehomewarrantycognito",
+		"AuthExpirationTimeinMins": 10,
+		"LoginPinSize": 8,
+		"AwsVerificationPinSize": 6,
+		"IsPremiumTechSupportEnabled":true,
+		"IsDeviceHealthTestAllowed": true,
+		"DeviceProtectionApiConfig": {
+			"ClientId": "WHWLowerEnvCId89",
+			"ClientSecret": "L*WHWLowerEnvCId07",
+			"CryptoKey": "",
+			"RootUrlEndingWithSlash": "https://qa1-hits-ext.likewize.com/onlineportal/api/v1/",
+			"OnlinePortalUrlEndingWithSlash": "https://qa1-hits-ext.likewize.com/onlineportal/",
+		},
+		"GPSTrackingAppleUrl": "https://www.icloud.com/",
+		"ScreenFlows": {
+			"LaunchScreen": "LoginPage"
+		}
+	},
+	"DemoConfig": {
+		"DemoCredentials": {
+			"applereviewer":"B@674564",
+			"googlereviewer":"B@674564",
+		},
+		"DemoAccountNumbers": [
+			"56409474",
+			"53975896"
+		]
+	},
+	"TechSupportConfig": {
+		"ApiKey": "uNFXoVSkIG7U6NMOjJf5c1ucsyuxSpHK1ro8ajhF",
+		"ApiRootUrl": "https://qa1-api-pts-amer.likewize.com/api",
+		"DefaultAndroidExternalDeviceId": "7084",
+		"DefaultiOSExternalDeviceId": "7083",
+		"ScreenFlows": {
+			"LaunchScreen": "Dashboard"
+		}
+	}
+}
