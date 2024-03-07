@@ -28,5 +28,11 @@
     "AccountCode": "boostinfinite_dp_us",
     "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/boostinfinite_dp_us/icon.png",
     "AccountCapabilities": "TradeIn"
+  },
+ {
+    "Name": "WHW",
+    "AccountCode": "homewarranty_dp_us",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/homewarranty_dp_us/icon.png",
+    "AccountCapabilities": "DP, PTS"
   }
 ]
