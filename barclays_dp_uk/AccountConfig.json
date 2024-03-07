@@ -26,7 +26,8 @@
 		"CustomizationKey": "barclays",
 		"AuthType": "bankaccountnumbercognito",
 		"AuthExpirationTimeinMins": 10,
-		"PinSize": 8,
+		"LoginPinSize": 8,
+		"AwsVerificationPinSize": 6,
 		"IsPremiumTechSupportEnabled":true,
 		"IsDeviceHealthTestAllowed": true,
 		"DeviceProtectionApiConfig": {
