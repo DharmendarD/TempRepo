@@ -1,5 +1,5 @@
 {
-  "UseEncryptedConfig":false,
+  "UseEncryptedConfig":true,
   "UseAndroidSpecificConfig":true,
   "UseIOSSpecificConfig":true,
 	"AccountConfig": {
