@@ -2,4 +2,265 @@
   "UseEncryptedConfig":false,
   "UseAndroidSpecificConfig":true,
   "UseIOSSpecificConfig":true,
+	"AccountConfig": {
+		"AccountCode": "barclays_dp_uk",
+		"CurrencyCulture": "en-GB",
+		"DefaultCulture": "en-GB",
+		"DeepLinkUrl": null,
+		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
+		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
+		"AccountType": "BankWithGadgets",
+		"DashBoardCacheTimeOutInSeconds": "60",
+		"DeviceNumberRegexValidation": "^[0-9]{11}$",
+		"DeviceNumberMasking": "#### ### ####",
+		"TermsAndConditionsType": "AsLink",
+		"DefaultCountryId": "1b8dd428-7335-428e-be46-b667d77b7caf",
+		"CountryCode": "+44",
+		"IsPremiumTechSupportEnabled": false,
+		"IsDeviceProtectionEnabled": true,
+		"IsUpgradeEnabled": false,
+		"IsDeviceProtectionEnrollEnabled": false,
+		"IsTradeInEnabled": false,
+		"IsDiagnosticsEnabled": false,
+		"VersionCheckUrl":"https://cdn-emea.likewize.com/assets/barclays/mobile/com_barclays_techpack.json",
+		"LogRootUrlEndingWithSlash": "https://hits-ext-emea.likewize.com/onlineportal/api/v1/",
+	},
+	"ContactConfig": [
+		{
+			"ContactMode": 1,
+			"ContactType": 1,
+			"Value": "0345 528 0182"
+		},
+		{
+			"ContactMode": 3,
+			"ContactType": 6,
+			"Value": "https://app.five9.eu/consoles/ChatConsole/index.html?title=Live%20Chat&tenant=Brightstar%20UK&profiles=Device%20Support%20-%20CHAT%20-%20Barclays%20-%20PTS&showProfiles=false&autostart=true&theme=default-theme.css&surveyOptions=%7B%22showComment%22%3Atrue%2C%22requireComment%22%3Afalse%7D&fields=%7B%22name%22%3A%7B%22value%22%3A%22{name}%22%2C%22show%22%3Atrue%2C%22label%22%3A%22Name%22%7D%2C%22email%22%3A%7B%22value%22%3A%22{email}%22%2C%22show%22%3Atrue%2C%22label%22%3A%22Email%22%7D%2C%22Mobile%20Device%20Number%22%3A%7B%22value%22%3A%22{mobiledevicenumber}%22%2C%22show%22%3Afalse%2C%22label%22%3A%22Mobile%20Device%20Number%22%2C%22required%22%3Afalse%7D%2C%22Member%20Service%20Number%22%3A%7B%22value%22%3A%22{memberservicenumber}%22%2C%22show%22%3Afalse%2C%22label%22%3A%22Member%20Service%20Number%22%2C%22required%22%3Afalse%7D%2C%22Service%20Plan%22%3A%7B%22value%22%3A%22{serviceplan}%22%2C%22show%22%3Afalse%2C%22label%22%3A%22Service%20Plan%22%2C%22required%22%3Afalse%7D%2C%22Chat%20Page%22%3A%7B%22value%22%3A%22Barclay%20MobileApp%20ContactUs%20Tech%20Support%20Advisor%22%2C%22show%22%3Afalse%2C%22label%22%3A%22Chat%20Page%22%2C%22required%22%3Afalse%7D%7D&playSoundOnMessage=true&allowCustomerToControlSoundPlay=true&showEmailButton=false&hideDuringAfterHours=false&useBusinessHours=true&showPrintButton=false&allowUsabilityMenu=true&enableCallback=false&allowRequestLiveAgent=false&namespace=mobileapp"
+		},
+		{
+			"ContactMode": 3,
+			"ContactType": 7,
+			"Value": "https://app.five9.eu/consoles/ChatConsole/index.html?title=Live%20Chat&tenant=Brightstar%20UK&profiles=Frontline%20-%20CHAT%20-%20Barclays&showProfiles=false&autostart=true&theme=default-theme.css&surveyOptions=%7B%22showComment%22%3Atrue%2C%22requireComment%22%3Afalse%7D&fields=%7B%22name%22%3A%7B%22value%22%3A%22{name}%22%2C%22show%22%3Atrue%2C%22label%22%3A%22Name%22%7D%2C%22email%22%3A%7B%22value%22%3A%22{email}%22%2C%22show%22%3Atrue%2C%22label%22%3A%22Email%22%7D%2C%22Mobile%20Device%20Number%22%3A%7B%22value%22%3A%22{mobiledevicenumber}%22%2C%22show%22%3Afalse%2C%22label%22%3A%22Mobile%20Device%20Number%22%2C%22required%22%3Afalse%7D%2C%22Member%20Service%20Number%22%3A%7B%22value%22%3A%22{memberservicenumber}%22%2C%22show%22%3Afalse%2C%22label%22%3A%22Member%20Service%20Number%22%2C%22required%22%3Afalse%7D%2C%22Service%20Plan%22%3A%7B%22value%22%3A%22{serviceplan}%22%2C%22show%22%3Afalse%2C%22label%22%3A%22Service%20Plan%22%2C%22required%22%3Afalse%7D%2C%22Chat%20Page%22%3A%7B%22value%22%3A%22Barclay%20MobileApp%20ContactUs%20Claim%20Advisor%22%2C%22show%22%3Afalse%2C%22label%22%3A%22Chat%20Page%22%2C%22required%22%3Afalse%7D%7D&playSoundOnMessage=true&allowCustomerToControlSoundPlay=true&showEmailButton=false&hideDuringAfterHours=false&useBusinessHours=true&showPrintButton=false&allowUsabilityMenu=true&enableCallback=false&allowRequestLiveAgent=false&namespace=mobileapp"
+		}
+	],
+	"ProtectConfig": {
+		"AccountId": "FF464F63-A706-4E14-9143-AA0D35EF74A5",
+		"AccountNumber": "000004F6",
+		"CustomizationKey": "Barclays",
+		"AuthType": "bankaccountnumbercognito",
+		"AuthExpirationTimeinMins": 60,
+		"LoginPinSize": 8,
+		"AwsVerificationPinSize": 6,
+		"IsPremiumTechSupportEnabled": true,
+		"IsDeviceHealthTestAllowed": true,
+		"DeviceProtectionApiConfig": {
+			"ClientId": "MBRCBS*rSSO234UserUAP",
+			"ClientSecret": "MB*125050292889273",
+			"CryptoKey": "",
+			"RootUrlEndingWithSlash": "https://hits-ext-emea.likewize.com/onlineportal/api/v1/",
+			"OnlinePortalUrlEndingWithSlash": "https://hits-ext-emea.likewize.com/onlineportal/"
+		},
+		"GPSTrackingAppleUrl": "https://www.icloud.com/",
+		"AddressConfig": {
+			"SuggestionUrl": "https://api.addressnow.co.uk/CapturePlus/Interactive/Find/v2.00/json3ex.ws?Key=ZA99-AZ72-RN93-HU64&Country=GBR&SearchTerm={0}&LanguagePreference=en&LastId={1}&SearchFor=Everything&OrderBy=&$block=true&$cache=true",
+			"RetrieveFormatUrl": "https://api.addressnow.co.uk/CapturePlus/Interactive/RetrieveFormatted/v2.00/json3ex.ws?Key=ZA99-AZ72-RN93-HU64&Id={0}&Source=&$cache=true"
+		},
+		"ScreenFlows": {
+			"LaunchScreen": "LoginPage"
+		},
+		"RampDocumentConfig": {
+		"AllowedFileTypes": ".txt,.jpg,.jpeg,.tiff,.tif,.png,.gif,.pdf,.doc,.docx,.key,.ppt,.pptx,.pps,.ppsx,.odt,.xls,.xlsx,.zip",
+		"AllowedFileTypesPop": ".jpg,.jpeg,.pdf,.bmp,.tiff,.tif,.png",
+		"MaxFileSizeInMb": 30,
+		"IsDocumentGuidelinesVisible": true,
+		"DocumentSampleUrls": [
+			{
+				"DocumentType": 3,
+				"SampleUrl": "https://techpackinsurance.co.uk/portal_resources/RAMP/barclays/police_report_en_GB.pdf"
+			},
+			{
+				"DocumentType": 8,
+				"SampleUrl": "https://techpackinsurance.co.uk/portal_resources/RAMP/barclays/identification.en-GB.pdf"
+			},
+			{
+				"DocumentType": 9,
+				"SampleUrl": "https://techpackinsurance.co.uk/portal_resources/RAMP/barclays/proof_of_address_utility.en-GB.pdf"
+			},
+			{
+				"DocumentType": 16,
+				"SampleUrl": "https://techpackinsurance.co.uk/portal_resources/RAMP/barclays/proof_of_travel_en-GB.pdf"
+			},
+			{
+				"DocumentType": 18,
+				"SampleUrl": "https://techpackinsurance.co.uk/portal_resources/RAMP/barclays/side_of_the_box_en-GB.pdf"
+			},
+			{
+				"DocumentType": 26,
+				"SampleUrl": "https://protect.likewize.com/portal_resources/RAMP/barclays/proof_of_purchase_en-GB.pdf"
+			},
+			{
+				"DocumentType": 28,
+				"SampleUrl": "https://techpackinsurance.co.uk/portal_resources/RAMP/barclays/proof_of%20_usage_en-GB.pdf"
+			},
+			{
+				"DocumentType": 29,
+				"SampleUrl": "https://techpackinsurance.co.uk/portal_resources/RAMP/barclays/proof_of_barring_en-GB.pdf"
+			}
+		]
+		},
+		"FaqUrl": "https://techpackinsurance.co.uk/FAQ/"
+	},
+	"DemoConfig": {
+		"DemoCredentials": {
+			"applereviewer@apple.com": "B@6426756",
+			"googlereviewer@google.com": "B@674564"
+		},
+		"DemoAccountNumbers": [
+			"56409474",
+			"53975896"
+		],
+		"DemoAgreementNumber": [
+			"7476746764",
+			"1025609905"
+		]
+	},
+	"CloudConfig": {
+		"AWSConfig": {
+			"CognitoConfig": {
+				"RegionKey": "eu-west-1",
+				"ClientId": "4nje289eg6it6o30t098kje065",
+				"UserPoolId": "eu-west-1_xRcq2m4PP",
+				"IdentityPool": "2b45f38b-fde5-491d-9c2c-b6856f8632ac",
+				"IdentityPoolProvider": "cognito-idp.us-east-1.amazonaws.com/eu-west-1_xRcq2m4PP"
+			}
+		}
+	},
+	"TechSupportConfig": {
+		"ApiKey": "LbckFIReIa5fHQK0MFgsc7VSMWzibxJt258DIOch",
+		"ApiRootUrl": "https://api-pts-emea.likewize.com/api",
+		"DefaultAndroidExternalDeviceId": "7084",
+		"DefaultiOSExternalDeviceId": "7083",
+		"ScreenFlows": {
+			"LaunchScreen": "Dashboard"
+		},
+		"DiagnosticsTestConfig": {
+			"DiagnosticsTests": [
+				{
+					"DiagnosticTestCategory": 2,
+					"DiagnosticTestType": 2097152
+				},
+				{
+					"DiagnosticTestCategory": 3,
+					"DiagnosticTestType": 4194304
+				},
+				{
+					"DiagnosticTestCategory": 4,
+					"DiagnosticTestType": 1048576
+				},
+				{
+					"DiagnosticTestCategory": 5,
+					"DiagnosticTestType": 1024
+				},
+				{
+					"DiagnosticTestCategory": 6,
+					"DiagnosticTestType": 8192
+				},
+				{
+					"DiagnosticTestCategory": 6,
+					"DiagnosticTestType": 16384
+				},
+				{
+					"DiagnosticTestCategory": 7,
+					"DiagnosticTestType": 2048
+				},
+				{
+					"DiagnosticTestCategory": 7,
+					"DiagnosticTestType": 4096
+				},
+				{
+					"DiagnosticTestCategory": 8,
+					"DiagnosticTestType": 1
+				},
+				{
+					"DiagnosticTestCategory": 8,
+					"DiagnosticTestType": 2
+				},
+				{
+					"DiagnosticTestCategory": 8,
+					"DiagnosticTestType": 4
+				},
+				{
+					"DiagnosticTestCategory": 8,
+					"DiagnosticTestType": 134217728
+				},
+				{
+					"DiagnosticTestCategory": 8,
+					"DiagnosticTestType": 536870912
+				},
+				{
+					"DiagnosticTestCategory": 9,
+					"DiagnosticTestType": 262144
+				},
+				{
+					"DiagnosticTestCategory": 10,
+					"DiagnosticTestType": 65536
+				},
+				{
+					"DiagnosticTestCategory": 11,
+					"DiagnosticTestType": 524288
+				},
+				{
+					"DiagnosticTestCategory": 12,
+					"DiagnosticTestType": 131072
+				},
+				{
+					"DiagnosticTestCategory": 13,
+					"DiagnosticTestType": 16
+				},
+				{
+					"DiagnosticTestCategory": 14,
+					"DiagnosticTestType": 32768
+				},
+				{
+					"DiagnosticTestCategory": 15,
+					"DiagnosticTestType": 8
+				},
+				{
+					"DiagnosticTestCategory": 20,
+					"DiagnosticTestType": 32
+				},
+				{
+					"DiagnosticTestCategory": 20,
+					"DiagnosticTestType": 64
+				},
+				{
+					"DiagnosticTestCategory": 20,
+					"DiagnosticTestType": 128
+				},
+				{
+					"DiagnosticTestCategory": 20,
+					"DiagnosticTestType": 256
+				},
+				{
+					"DiagnosticTestCategory": 20,
+					"DiagnosticTestType": 512
+				},
+				{
+					"DiagnosticTestCategory": 20,
+					"DiagnosticTestType": 16777216
+				},
+				{
+					"DiagnosticTestCategory": 20,
+					"DiagnosticTestType": 33554432
+				},
+				{
+					"DiagnosticTestCategory": 20,
+					"DiagnosticTestType": 67108864
+				},
+				{
+					"DiagnosticTestCategory": 21,
+					"DiagnosticTestType": 8388608
+				}
+			]
+		}
+	}
 }
