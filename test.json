@@ -1,0 +1,5 @@
+{
+  "UseEncryptedConfig":true,
+  "UseAndroidSpecificConfig":true,
+  "UseIOSSpecificConfig":true,
+}
