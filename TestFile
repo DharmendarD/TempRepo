@@ -1,0 +1,124 @@
+Title: Implement Login Page (UI + Validation + Auth)
+
+Description:
+As a user,
+ I want to securely log in to the application using my email/username and password,
+ So that I can access my personalized dashboard and features.
+This ticket covers the implementation of the login page UI, input validation, error handling, authentication integration, and accessibility support. It includes basic functionality such as field validation, password masking, login errors, and redirect upon success.
+
+Scope:
+Email/Username and Password input fields
+
+
+Client-side validation
+
+
+Password masking with toggle
+
+
+"Forgot password" link
+
+
+"Remember me" checkbox (if required)
+
+
+API integration for login
+
+
+Error messaging for invalid inputs or credentials
+
+
+Redirect on successful login
+
+
+
+Acceptance Criteria:
+Login Form Display
+
+
+Login form includes:
+
+
+Email/Username input
+
+
+Password input
+
+
+Login button
+
+
+"Forgot password?" link
+
+
+(Optional) "Remember Me" checkbox
+
+
+Input Validation
+
+
+Invalid email formats are rejected with a relevant error message.
+
+
+Both fields are required; show validation errors if left empty.
+
+
+Empty Field Handling
+
+
+Given a user submits the login form with one or more empty fields,Then the user should see an error message indicating the required fields.
+
+
+Successful Login
+
+
+Valid credentials log the user in and redirect to the dashboard/home page.
+
+
+Unsuccessful Login
+
+
+Invalid credentials show a clear error message (e.g., "Invalid username or password").
+
+
+Password Visibility Toggle
+
+
+A "show/hide" icon allows the user to toggle password visibility.
+
+
+Forgot Password Link
+
+
+Clicking "Forgot password?" redirects to the password recovery page.
+
+
+Remember Me Option
+
+
+If checked, the session persists after closing the browser.
+
+
+If unchecked, the session expires on browser close or after timeout.
+
+
+Security Requirements
+
+
+Form must use HTTPS.
+
+
+Password is masked by default.
+
+
+Inputs should be protected against common attacks (e.g., XSS, SQL injection).
+
+
+Accessibility
+
+
+All form fields are keyboard accessible.
+
+
+Fields include ARIA labels or screen-reader support.
+
