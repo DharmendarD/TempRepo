@@ -1,1 +1,28 @@
+Jira Ticket: Add Transactions
 
+Title:
+Add Transactions
+
+Description:
+Add Transactions section to Account Center.
+
+The disclosure that appears at the bottom of the Transactions box should be <updated 1/7>: 
+Transaction information as of MM/DD/YYYY. This summary may not include pending transactions. It contains loan activity only and does not reflect Savings Account activity.
+
+<added on 1/7>
+The Transactions box should also appear on the Account Summary page above the Payment History section. It should display the five most recent transactions along with a link to "View All Transactions" at the bottom, same as it would be on MCCP for the credit card products.
+
+Acceptance Criteria:
+ 
+Transaction tabs needs to be introduced in the my total credit builder application.
+Transactions tab will list the  10 transactions per page
+pagination needs to be introduced based on the result count
+current page should be mentioned  eg: page 1 of 2
+First , last , < and . buttons needs to be introduced part of pagination
+Irrespective of the current page, user needs to be taken to first page when first button is clicked.
+Irrespective of the current page, user needs to be taken to last page when last button is clicked.
+user should be displayed with next page when > is clicked
+user should be displayed with previous page when < is clicked.
+there should be date displayed uncder the each transaction name
+amount should have $ Infront with 2 decimal points.
+This is the one functionality part of this ticket bro. You can use this as example
